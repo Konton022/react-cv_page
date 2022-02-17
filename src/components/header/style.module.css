@@ -2,6 +2,7 @@
     border-bottom: 1px solid rgba(153, 0, 0, 0.5);
     font-family:'Courier New', Courier, monospace;
     font-size: 1rem;
+    
 }
 
 .logoBar {
@@ -16,26 +17,23 @@
     
 }
 
-.logo, .navbar, .contact {
-    flex-wrap: wrap;
+
+.nav {
+    display: flex;
+    padding: 0;
 }
 
-.contact ul {
-    padding-left: 0;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+.nav__item {
+    display: inline-block;
+    margin: 0 0.5rem;
     list-style-type: none;
-    
 }
-.navbar ul {
-    display: flex;
+
+.flex_center {
     justify-content: center;
 }
-.navbar__item, .contact__item {
-    margin-right: 1rem;
-    
-}
+
+
 .navbar__item:last-child, .contact__item:last-child {
     margin-right: 0;
 }
