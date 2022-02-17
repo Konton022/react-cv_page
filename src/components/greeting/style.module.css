@@ -1,4 +1,20 @@
 .greeting {
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: white;
+    margin: 1rem 0;
+}
+
+.text__title {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 600px;
+    line-height: 2.5rem;
+    margin: 2rem 0;
+}
+
+.text__title span {
+    background-color: rgba(255, 0, 0, 0.379);
 }
