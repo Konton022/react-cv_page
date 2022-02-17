@@ -1,9 +1,10 @@
 import React from 'react';
+import Greeting from '../components/greeting/Greeting';
 
 const Main = () => {
 	return (
 		<div>
-			<h1>Hello World</h1>
+			<Greeting />
 		</div>
 	);
 }

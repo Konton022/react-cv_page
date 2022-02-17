@@ -1,22 +1,17 @@
-.header { 
+.header {
     border-bottom: 1px solid rgba(153, 0, 0, 0.5);
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
-    
 }
 
 .logoBar {
     display: flex;
     justify-content: space-between;
-
 }
 .logo {
     display: flex;
     align-items: center;
-
-    
 }
-
 
 .nav {
     display: flex;
@@ -31,9 +26,4 @@
 
 .flex_center {
     justify-content: center;
-}
-
-
-.navbar__item:last-child, .contact__item:last-child {
-    margin-right: 0;
 }
