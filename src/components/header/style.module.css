@@ -1,41 +1,31 @@
-.header { 
+.header {
     border-bottom: 1px solid rgba(153, 0, 0, 0.5);
-    font-family:'Courier New', Courier, monospace;
-    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: whitesmoke;
 }
 
 .logoBar {
     display: flex;
     justify-content: space-between;
-
 }
 .logo {
     display: flex;
     align-items: center;
-
-    
 }
 
-.logo, .navbar, .contact {
-    flex-wrap: wrap;
-}
-
-.contact ul {
-    padding-left: 0;
+.nav {
     display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+    padding: 0;
+}
+
+.nav__item {
+    display: inline-block;
+    margin: 0 0.5rem;
     list-style-type: none;
-    
 }
-.navbar ul {
-    display: flex;
+
+.flex_center {
     justify-content: center;
-}
-.navbar__item, .contact__item {
-    margin-right: 1rem;
-    
-}
-.navbar__item:last-child, .contact__item:last-child {
-    margin-right: 0;
 }
