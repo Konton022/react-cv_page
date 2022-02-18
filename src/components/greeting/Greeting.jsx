@@ -1,7 +1,7 @@
 import React from 'react';
 import * as cn from 'classnames';
 import s from './style.module.css';
-import img from './bird.jpg';
+import img from './photo.jpg';
 
 const Greeting = () => {
     return (
@@ -13,16 +13,42 @@ const Greeting = () => {
                         <span>Junior React Front-End Developer</span>{' '}
                     </div>
                     <div className={s.text__discrib}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Aperiam tempora, dolorum ipsam nemo nulla dolorem beatae
-                        voluptates dolore, odit ipsum asperiores aliquam?
-                        Consectetur minima, quasi molestiae perferendis aut
-                        cumque qui!
+                        <h2 className={s.text__subtitle}>
+                            Short information about me:
+                        </h2>
+                        <ul className={s.text__list}>
+                            <li>
+                                {' '}
+                                <span>name:</span> Konstantin Savelyev
+                            </li>
+                            <li>
+                                {' '}
+                                <span>age:</span> 38
+                            </li>
+                            <li>
+                                <span>edication:</span> ural university
+                                communication and information in 2006 year
+                            </li>
+                            <li>
+                                <span>current work:</span> Orange Business
+                                Services, position: engineer of comminucation
+                            </li>
+                            <li>
+                                <span>languages:</span> native Russian and
+                                English B2
+                            </li>
+                            <li>
+                                <span>hobby:</span> code, bike, snowboard, ski,
+                                books
+                            </li>
+                        </ul>
                     </div>
-                    <a href='#'>Contact me</a>
+                    <a href='!#' className={s.text__btn}>
+                        contact me
+                    </a>
                 </div>
                 <div className={s.greeting__image}>
-                    <img src={img} alt='bird' />
+                    <img src={img} alt='personal_photo' />
                 </div>
             </div>
         </>
