@@ -1,3 +1,17 @@
 .skills {
     height: 50vh;
 }
+
+.skills__title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 4rem 0 2rem 0;
+}
+
+.skills_wrapper {
+    min-height: 20vh;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(105, 101, 101);
+}

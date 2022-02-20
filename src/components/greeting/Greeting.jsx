@@ -26,7 +26,7 @@ const Greeting = () => {
                                 <span>age:</span> 38
                             </li>
                             <li>
-                                <span>edication:</span> ural university
+                                <span>edication:</span> ural university of
                                 communication and information in 2006 year
                             </li>
                             <li>
