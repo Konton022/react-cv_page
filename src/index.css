@@ -2,7 +2,18 @@ body {
     margin: 0;
     font-family: monospace;
     font-size: 10px;
-    background-color: rgb(248, 243, 242);
+    /* background-color: rgb(248, 243, 242); */
+    background: -webkit-linear-gradient(
+        45deg,
+        rgb(249, 253, 252),
+        rgb(212, 198, 195)
+    );
+    background: -moz-linear-gradient(
+        45deg,
+        rgb(249, 253, 252),
+        rgb(212, 198, 195)
+    );
+    background: linear-gradient(45deg, rgb(249, 253, 252), rgb(212, 198, 195));
 }
 
 #root {
