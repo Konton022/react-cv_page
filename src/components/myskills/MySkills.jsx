@@ -5,11 +5,11 @@ const MySkills = () => {
     return (
         <div className={s.skills}>
             <div className={s.skills__title}>My Skills</div>
-            <div className={s.skills_wrapper}>
+            <div className={s.skills__wrapper}>
                 <div className={s.skills__cards}>
-                    <div>HTML</div>
-                    <div>CSS</div>
-                    <div>REACT</div>
+                    <div className={s.skills__card}>HTML</div>
+                    <div className={s.skills__card}>CSS</div>
+                    <div className={s.skills__card}>REACT</div>
                 </div>
             </div>
         </div>

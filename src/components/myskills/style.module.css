@@ -9,9 +9,20 @@
     margin: 4rem 0 2rem 0;
 }
 
-.skills_wrapper {
+.skills__wrapper {
     min-height: 20vh;
     background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(105, 101, 101);
+}
+
+.skills__cards {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
+}
+
+.skills__card {
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(105, 101, 101);
 }
